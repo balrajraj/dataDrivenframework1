@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="94446" started-at="2020-05-14T07:48:26Z" finished-at="2020-05-14T07:50:01Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="94446" started-at="2020-05-14T07:48:26Z" finished-at="2020-05-14T07:50:01Z">
+      <class name="Test_Package.Excel_Data">
+        <test-method status="PASS" signature="initalization()[pri:0, instance:Test_Package.Excel_Data@a3ffec]" name="initalization" is-config="true" duration-ms="35996" started-at="2020-05-14T13:18:26Z" finished-at="2020-05-14T13:19:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initalization -->
+        <test-method status="PASS" signature="login()[pri:0, instance:Test_Package.Excel_Data@a3ffec]" name="login" duration-ms="3966" started-at="2020-05-14T13:19:03Z" finished-at="2020-05-14T13:19:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:Test_Package.Excel_Data@a3ffec]" name="quit" is-config="true" duration-ms="54448" started-at="2020-05-14T13:19:06Z" finished-at="2020-05-14T13:20:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- Test_Package.Excel_Data -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
