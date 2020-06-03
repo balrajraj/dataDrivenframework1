@@ -3,13 +3,12 @@
 <suite name="Failed suite [Suite]">
   <test name="Test(failed)">
     <classes>
-      <class name="Test_Package.Excel_Data">
+      <class name="Test_Package.Image">
         <methods>
-          <include name="quit"/>
-          <include name="retriveData"/>
-          <include name="initalization"/>
+          <include name="setup"/>
+          <include name="start"/>
         </methods>
-      </class> <!-- Test_Package.Excel_Data -->
+      </class> <!-- Test_Package.Image -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

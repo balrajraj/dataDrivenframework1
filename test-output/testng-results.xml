@@ -1,25 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="1" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="94446" started-at="2020-05-14T07:48:26Z" finished-at="2020-05-14T07:50:01Z">
+  <suite name="Default suite" duration-ms="98764" started-at="2020-05-19T12:55:10Z" finished-at="2020-05-19T12:56:49Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="94446" started-at="2020-05-14T07:48:26Z" finished-at="2020-05-14T07:50:01Z">
-      <class name="Test_Package.Excel_Data">
-        <test-method status="PASS" signature="initalization()[pri:0, instance:Test_Package.Excel_Data@a3ffec]" name="initalization" is-config="true" duration-ms="35996" started-at="2020-05-14T13:18:26Z" finished-at="2020-05-14T13:19:02Z">
+    <test name="Default test" duration-ms="98764" started-at="2020-05-19T12:55:10Z" finished-at="2020-05-19T12:56:49Z">
+      <class name="Test_Package.Image">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Test_Package.Image@c4039c]" name="setup" is-config="true" duration-ms="35888" started-at="2020-05-19T18:25:10Z" finished-at="2020-05-19T18:25:46Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- initalization -->
-        <test-method status="PASS" signature="login()[pri:0, instance:Test_Package.Excel_Data@a3ffec]" name="login" duration-ms="3966" started-at="2020-05-14T13:19:03Z" finished-at="2020-05-14T13:19:06Z">
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="start()[pri:0, instance:Test_Package.Image@c4039c]" name="start" duration-ms="62830" started-at="2020-05-19T18:25:46Z" finished-at="2020-05-19T18:26:49Z">
+          <exception class="java.lang.UnsatisfiedLinkError">
+            <message>
+              <![CDATA[no AspriseOCR in java.library.path]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.UnsatisfiedLinkError: no AspriseOCR in java.library.path
+	at java.lang.ClassLoader.loadLibrary(Unknown Source)
+	at java.lang.Runtime.loadLibrary0(Unknown Source)
+	at java.lang.System.loadLibrary(Unknown Source)
+	at com.asprise.util.ocr.OCR.loadLibrary(OCR.java:247)
+	at com.asprise.util.ocr.OCR.<init>(OCR.java:56)
+	at Test_Package.Image.start(Image.java:57)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.UnsatisfiedLinkError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:Test_Package.Excel_Data@a3ffec]" name="quit" is-config="true" duration-ms="54448" started-at="2020-05-14T13:19:06Z" finished-at="2020-05-14T13:20:01Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quit -->
-      </class> <!-- Test_Package.Excel_Data -->
+        </test-method> <!-- start -->
+      </class> <!-- Test_Package.Image -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

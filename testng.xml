@@ -3,7 +3,8 @@
 <suite name="Suite">
   <test name="Test">
     <classes>
-      <class name="Test_Package.Excel_Data"/>
+     <!--  <class name="Test_Package.Excel_Data"/> -->
+     <class name="Test_Package.Image"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
