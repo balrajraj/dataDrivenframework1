@@ -1,0 +1,10 @@
+pipeline{
+      agent any
+      stages{
+          stage("GIT Checkout"){
+              steps{
+                  git credentialsId: '86e407fd-255f-4d57-a47d-d250792360b7', url: 'https://github.com/balrajraj/ecomerceAutomation'
+              }
+          }
+      }
+      }
